@@ -1,0 +1,10 @@
+Some Important attributes of short 50 stories data
+
+total words = 124594
+total stop words occurence = 35143 (28.1%)
+total words other than stop words = 89451 (71.8%)
+total size of inverted index = 10825
+most repeated word other than stop word = he (2184 times)
+Min word count file = 22.txt with 3793 words including spaces (761 only words)
+Min word count file = 8.txt with 48323 words including spaces (10320 only words)
+Avg word count of file = 2491.88 words (no space included)
