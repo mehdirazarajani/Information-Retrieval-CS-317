@@ -298,7 +298,7 @@ public class BooleanIR {
         }
         Map<Integer, Set<Integer>> resultant = expressionList.get(0);
         for (int i = 1; i < expressionList.size(); i++) {
-            resultant = evaluteProximityQuery(resultant, expressionList.get(i), Gaplist.get(i-1));
+            resultant = evaluteProximityQuery(resultant, expressionList.get(i), Gaplist.get(i));
             if (resultant.isEmpty())
                 break;
         }
